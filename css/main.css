@@ -6,4 +6,17 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  background: lightblue;
+  font-size: 15px;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: white;
+  margin: 20rem 30rem;
+  padding: 2%;
+  border-radius: 25px;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
