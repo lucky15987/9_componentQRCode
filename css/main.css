@@ -6,7 +6,7 @@
 
 body {
   font-family: "Outfit", sans-serif;
-  background: lightblue;
+  background: hsl(212deg, 45%, 89%);
   font-size: 15px;
 }
 
@@ -15,8 +15,30 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   background: white;
-  margin: 20rem 30rem;
+  margin: 10rem 10rem;
   padding: 2%;
   border-radius: 25px;
   justify-content: center;
+  box-shadow: 5px 3px 50px 5px hsl(220deg, 15%, 55%);
+}
+.container-card img, .container-card h1, .container-card p {
+  font-size: 100%;
+}
+.container-card img {
+  border-radius: 20px;
+}
+.container-card h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.container-card p {
+  text-align: center;
+  color: hsl(220deg, 15%, 55%);
+}
+
+@media (max-width: 380px) {
+  .container-card {
+    top: 10%;
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
